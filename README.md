@@ -16,4 +16,4 @@ need to be updated?
 
 The bug seems to happen only with arrays, and, which is crazy, with specific
 variable names, like `toto` or `coupons`. It does not happen with `coupon` or
-`foo` or `c`.
+`foo` or `c`, unless you clear your cache with `rm -rf var/cache/*`
